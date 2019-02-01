@@ -1,0 +1,382 @@
+div.menu{
+  width: 100%;
+  background: #4f83a3;
+  position: fixed top;
+  background-image: linear-gradient(to right top, #8e44ad 0%, #3498db 100%);
+}
+
+div.menu ul{
+  list-style-type: none;
+  overflow: hidden;
+  padding: 8px;
+  margin: 0;
+}
+
+div.menu li{
+  float: right;
+  padding-left: 20px;
+}
+
+div.menu li a{
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  padding: 13px 15px;
+  font-size: 16px;
+  display: block;
+}
+
+div.menu li a:hover{
+background: #2d4777;
+color: #2da7ff;
+border: 0px solid red;
+}
+
+div.menu h5{
+  position: sticky;
+  float: left;
+  padding-top: 12px;
+  margin: 0 auto;
+}
+
+div.menu img{
+  width: 4%;
+  height: auto;
+  margin: 5px;
+}
+
+div.header{
+  width: 100%;
+  height: 700px;
+  background-image: url("ranu.jpg");
+  background-repeat: no-repeat;
+  background-size:  cover;
+  background-position: center;
+  float: left;
+}
+
+div.shadow{
+  width: 100%;
+  height: 700px;
+  float: left;
+  background:#000;
+  opacity:0.6;
+}
+
+div.header h1{
+  position: absolute;
+  text-align: center;
+  color: #c61f1f;
+  top:  200px;
+  left: 470px;
+  font-weight: bolder;
+  font-family: "Capture it";
+  font-size: 50px;
+}
+
+div.header h3{
+  position: absolute;
+  text-align: center;
+  color: #15c8d3;
+  top:  350px;
+  left: 550px;
+  font-weight: bolder;
+  font-family: Vivaldi;
+  font-size: 30px;
+}
+
+div.tentang{
+  width: 100%;
+  height: 700px;
+  float: left;
+  background-color: #33497a;
+}
+
+div.tentang .left{
+  width: 50%;
+  height: 100%;
+  float: left;
+  margin-top: 40px;
+}
+
+div.tentang .left h1{
+  text-align: right;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 20;
+  border-right: 5px solid #700e0e;
+  padding-right: 10px;
+}
+
+div.tentang .left p{
+  text-align: right;
+  font-size: 30px;
+  color: #d3d9e8;
+  font-family: HoloLens MDL2 Assets;
+}
+
+div.tentang .right{
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+
+div.tentang .right img{
+  width: 500px;
+  height: auto;
+  margin-top: 60px;
+  margin-left: 60px;
+  border: 15px solid #000;
+  border-radius: 50px;
+}
+
+div.budaya{
+  width: 100%;
+  height: 900px;
+  float: left;
+  background-color: #461470;
+}
+
+div.budaya .judul{
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  float: left;
+  background-color: #7f46af;
+}
+
+div.budaya .judul h2{
+  text-align: center;
+  font-size: 40px;
+  margin: center;
+  text-transform: uppercase;
+}
+
+div.budaya .jaranan{
+  width: 50%;
+  height: auto;
+  float: left;
+}
+
+div.budaya .jaranan h3{
+  font-size: 30px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+div.budaya .jaranan p{
+  width: 100%;
+  margin-left: 20px;
+  font-size: 20px;
+  text-align: left;
+}
+
+div.budaya img{
+    width: 400px;
+    height: auto;
+    border: 5px solid #e1f0f7;
+    border-radius: 20px;
+    float: right;
+    margin-top: 50px;
+    position: relative;
+}
+
+div.budaya .ketoprak {
+  width: 50%;
+  height: auto;
+  float: right;
+}
+
+div.budaya .ketoprak h3{
+  font-size: 30px;
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 150px;
+}
+
+div.budaya .ketoprak p{
+  width: 100%;
+  margin-right: 20px;
+  font-size: 20px;
+  text-align: right;
+  float: right;
+  margin-top: 10px;
+}
+
+div.budaya img{
+  width: 400px;
+  height: auto;
+  border: 5px solid #e1f0f7;
+  border-radius: 20px;
+  float: left;
+  margin-top: 5px;
+  position: relative;
+  margin-left: 100px;
+}
+
+div.pariwisata{
+  width: 100%;
+  height: 900px;
+  background-color: #33497a;
+}
+
+div.pariwisata .judul{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  float: left;
+  background-color: #466699;
+}
+
+div.pariwisata .judul h2{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+div.pariwisata .objek1{
+  width: 50%;
+  height: 100%;
+  float: left;
+  padding: 0;
+  background-color: #2b3268;
+}
+
+div.pariwisata .objek1 h3{
+    text-align: center;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+div.pariwisata .objek1 p{
+  text-align: left;
+  font-size: 20px;
+  float: left;
+  padding-left: 20px;
+}
+
+div.pariwisata .objek1 img{
+  width: 500px;
+  height: auto;
+  margin-top: 60px;
+  margin-left: 60px;
+  border: 10px solid #000;
+  border-radius: 20px;
+}
+
+div.pariwisata .objek2{
+  width: 50%;
+  height: 100%;
+  float: left;
+  padding: 0;
+  background-color: #2b3268;
+}
+
+div.pariwisata .objek2 h3{
+  text-align: center;
+  font-size: 30px;
+  padding-right: 20px;
+}
+
+div.pariwisata .objek2 p{
+  text-align: right;
+  font-size: 20px;
+  float: right;
+  border-left: 5px solid red;
+  padding-right: 20px;
+}
+
+div.pariwisata .objek2 img{
+  width: 500px;
+  height: auto;
+  margin-top: 60px;
+  margin-left: 200px;
+  border-radius: 20px;
+  border: 10px solid #000;
+}
+
+div.makanan{
+  width: 100%;
+  height: 600px;
+  float: left;
+  background-color: #a83e3e;
+}
+
+div.makanan .judul{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  float: left;
+  background-color: #ce4646;
+}
+
+div.makanan .judul h2{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+div.makanan .makanan1{
+  width: 100%;
+  height: auto;
+  float: left;
+  padding: 0;
+  background-color: #af242b;
+}
+
+div.makanan .makanan1 h3{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+div.makanan .makanan1 p{
+  text-align: center;
+  font-size: 20px;
+  float: right;
+}
+
+div.makanan .makanan1 img{
+  width: 500px;
+  height: auto;
+  position: relative;
+  float: left;
+  margin-top: 30px;
+  margin-left: 500px;
+  border-radius: 20px;
+  border: 5px solid #000;
+  margin-bottom: 10px;
+}
+
+div.makanan .makanan2{
+  width: 100%;
+  height: auto;
+  float: left;
+  padding: 0;
+  background-color: #7a4044;
+}
+
+div.makanan .makanan2 h3{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+div.makanan .makanan2 p{
+  text-align: center;
+  font-size: 20px;
+  float: right;
+}
+
+div.makanan .makanan2 img{
+  width: 500px;
+  height: auto;
+  position: relative;
+  float: left;
+  margin-top: 30px;
+  margin-left: 500px;
+  border-radius: 20px;
+  border: 5px solid #000;
+}
